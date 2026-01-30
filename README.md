@@ -38,7 +38,7 @@ Este projeto foi desenvolvido como parte do processo seletivo para a posição d
          │
          ▼
 ┌─────────────────────────┐
-│  extrator_groq.py       │
+│  extrator_requisitos.py       │
 │  • PyPDF2 (texto)       │
 │  • Groq API (análise)   │
 │  • JSON estruturado     │
@@ -52,7 +52,7 @@ Este projeto foi desenvolvido como parte do processo seletivo para a posição d
          │
          ▼
 ┌─────────────────────────┐
-│  matching_groq.py       │
+│  analisador_motores.py│
 │  • Groq API (análise)   │
 │  • Scoring ponderado    │
 │  • Classificação        │
