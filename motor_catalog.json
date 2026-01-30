@@ -1,0 +1,852 @@
+{
+  "catalogo_motores": {
+    "versao": "2024.12",
+    "data_atualizacao": "2024-12-15",
+    "moeda": "BRL",
+    "observacoes": "Preços válidos por 30 dias. Impostos não inclusos. Frete FOB fábrica.",
+    "produtos": [
+      {
+        "codigo_produto": "WEG-00158ET3EM160M-W22",
+        "fabricante": "WEG",
+        "linha_produto": "W22 Premium",
+        "descricao_comercial": "Motor Elétrico Trifásico W22 15kW 4 Polos IE3",
+        "categoria": "motor_eletrico_industrial",
+        "aplicacoes_recomendadas": [
+          "bombas_centrifugas",
+          "bombas_multiestágio",
+          "bombas_submersas",
+          "ventiladores",
+          "compressores"
+        ],
+        "especificacoes": {
+          "eletricos": {
+            "potencia_kw": 15.0,
+            "potencia_cv": 20.0,
+            "potencia_hp": 20.1,
+            "tensao_v": [380, 440],
+            "tensao_configuracao": "380V/440V (△/Y)",
+            "corrente_nominal_380v_a": 28.5,
+            "corrente_nominal_440v_a": 24.8,
+            "corrente_partida_rotor_bloqueado_380v_a": 199.5,
+            "frequencia_hz": 60,
+            "numero_fases": 3,
+            "fator_potencia": 0.86,
+            "fator_potencia_75_carga": 0.84,
+            "rendimento_100_carga_percent": 92.1,
+            "rendimento_75_carga_percent": 92.5,
+            "rendimento_50_carga_percent": 91.8,
+            "classe_isolamento": "F",
+            "elevacao_temperatura_classe": "B",
+            "resistencia_isolamento_min_mohm": 100,
+            "categoria_conjugado": "N"
+          },
+          "mecanicos": {
+            "rotacao_sincrona_rpm": 1800,
+            "rotacao_nominal_rpm": 1780,
+            "numero_polos": 4,
+            "torque_nominal_nm": 80.5,
+            "torque_partida_nm": 193.2,
+            "torque_partida_percentual": 240,
+            "torque_maximo_nm": 201.3,
+            "torque_maximo_percentual": 250,
+            "momento_inercia_kgm2": 0.082,
+            "tipo_carcaca": "160M",
+            "material_carcaca": "ferro_fundido",
+            "altura_eixo_mm": 160,
+            "tipo_montagem_disponiveis": ["B3", "B5", "B14", "B34", "B35"],
+            "tipo_montagem_padrao": "B3",
+            "forma_construtiva_iec": "IM1001",
+            "tipo_acoplamento": "ponta_eixo_cilindrica",
+            "diametro_ponta_eixo_mm": 42,
+            "comprimento_ponta_eixo_mm": 110,
+            "chaveta_dim_mm": "12 x 8 x 70",
+            "sentido_rotacao": "reversivel",
+            "tipo_rolamento_dianteiro": "6309-2RS",
+            "tipo_rolamento_traseiro": "6308-2RS",
+            "peso_kg": 102,
+            "dimensoes_mm": {
+              "comprimento_total": 525,
+              "largura": 290,
+              "altura": 340
+            }
+          },
+          "operacionais": {
+            "grau_protecao": "IP55",
+            "grau_protecao_descricao": "Totalmente protegido contra poeira e jatos d'água",
+            "eficiencia_energetica": "IE3",
+            "eficiencia_energetica_descricao": "Premium Efficiency",
+            "regime_trabalho": "S1",
+            "regime_trabalho_descricao": "Serviço contínuo",
+            "temp_ambiente_min_c": -20,
+            "temp_ambiente_max_c": 50,
+            "temp_ambiente_nominal_c": 40,
+            "altitude_max_m": 1000,
+            "umidade_relativa_max_percent": 95,
+            "tipo_refrigeracao": "IC411",
+            "tipo_refrigeracao_descricao": "Ventilação superficial - autoventilado",
+            "nivel_ruido_db": 66,
+            "nivel_ruido_referencia": "1 metro",
+            "classe_vibracao": "A",
+            "classe_vibracao_norma": "ISO 10816-1",
+            "tempo_aceleracao_s": 2.6,
+            "fator_servico": 1.20
+          },
+          "aplicacao": {
+            "tipos_bomba_compativel": [
+              "centrifuga",
+              "multiestágio",
+              "parafuso",
+              "engrenagem",
+              "dosadora"
+            ],
+            "fluidos_compativeis": [
+              "agua_limpa",
+              "agua_industrial",
+              "agua_tratamento",
+              "quimicos_leves",
+              "oleos"
+            ],
+            "ambientes_instalacao": [
+              "industrial_coberto",
+              "industrial_aberto",
+              "ambiente_agressivo",
+              "area_externa",
+              "offshore",
+              "area_classificada"
+            ],
+            "preparado_inversor": true,
+            "isolamento_vfd": "IEC 60034-17 / IEC 60034-18-41",
+            "frequencia_operacao_vfd_min_hz": 15,
+            "frequencia_operacao_vfd_max_hz": 100,
+            "normas_projeto": [
+              "IEC 60034-1",
+              "IEC 60034-30-1",
+              "API 541",
+              "NEMA MG-1"
+            ],
+            "normas_eficiencia": [
+              "IEC 60034-30-1"
+            ],
+            "certificacoes": [
+              "CE",
+              "UL",
+              "CSA",
+              "ATEX",
+              "EAC"
+            ],
+            "numero_certificado_inmetro": null
+          },
+          "protecoes": {
+            "protecao_termica_tipo": "PT100_duplo",
+            "protecao_termica_quantidade": 6,
+            "protecao_termica_localizacao": "enrolamentos_estator_e_rolamentos",
+            "termostato_disponivel": true,
+            "resistencia_anticondensacao_disponivel": true,
+            "resistencia_anticondensacao_potencia_w": 100
+          }
+        },
+        "comercial": {
+          "preco_base_brl": 10500.0,
+          "preco_com_impostos_brl": 14175.0,
+          "impostos_inclusos": false,
+          "desconto_volume_5_unidades_percent": 7,
+          "desconto_volume_10_unidades_percent": 12,
+          "prazo_entrega_dias": 60,
+          "prazo_entrega_descricao": "dias úteis - importação",
+          "disponibilidade": "importacao",
+          "estoque_quantidade": 0,
+          "estoque_localizacao": null,
+          "garantia_meses": 24,
+          "garantia_descricao": "24 meses contra defeitos de fabricação ou 18.000 horas de operação",
+          "condicoes_pagamento": [
+            "50% antecipado + 50% contra embarque",
+            "Carta de crédito",
+            "Leasing (consultar)"
+          ],
+          "frete_tipo": "FOB",
+          "peso_embalado_kg": 115,
+          "dimensoes_embalagem_cm": "74 x 48 x 54",
+          "origem_produto": "Importado - Finlândia"
+        },
+        "opcionais": [
+          {
+            "codigo": "PT100-DOUBLE",
+            "descricao": "Duplo sensor PT100 (redundância)",
+            "localizacao": "Enrolamentos + Rolamentos",
+            "preco_brl": 720.0,
+            "prazo_adicional_dias": 0
+          },
+          {
+            "codigo": "ANTICOND-HEAT",
+            "descricao": "Resistência anti-condensação 100W",
+            "tensao_v": 220,
+            "preco_brl": 385.0,
+            "prazo_adicional_dias": 0
+          },
+          {
+            "codigo": "SEAL-MECH",
+            "descricao": "Selo mecânico lado acionado",
+            "aplicacao": "Ambientes muito agressivos",
+            "preco_brl": 650.0,
+            "prazo_adicional_dias": 5
+          },
+          {
+            "codigo": "PAINT-MARINE",
+            "descricao": "Pintura naval epóxi bi-componente",
+            "espessura_microns": 250,
+            "preco_brl": 890.0,
+            "prazo_adicional_dias": 10
+          }
+        ],
+        "documentacao_incluida": [
+          "Manual de instalação e operação (Multi-idioma)",
+          "Desenho dimensional (PDF/DWG/STEP)",
+          "Curvas de desempenho completas",
+          "Certificados de teste individuais",
+          "Termo de garantia estendida",
+          "Declaração de conformidade CE/UL/ATEX",
+          "Relatório de vibração"
+        ],
+        "suporte_tecnico": {
+          "assistencia_tecnica_disponivel": true,
+          "atendimento_emergencial_24h": true,
+          "cobertura_geografica": "Global",
+          "tempo_resposta_horas": 8,
+          "pecas_reposicao_disponiveis": true,
+          "treinamento_disponivel": true
+        }
+      },
+      {
+        "codigo_produto": "EBERLE-EBR160M-4",
+        "fabricante": "EBERLE",
+        "linha_produto": "Premium Efficiency",
+        "descricao_comercial": "Motor Eberle 15kW 4 Polos Alto Rendimento",
+        "categoria": "motor_eletrico_industrial",
+        "aplicacoes_recomendadas": [
+          "bombas_centrifugas",
+          "bombas_multiestágio",
+          "ventiladores"
+        ],
+        "especificacoes": {
+          "eletricos": {
+            "potencia_kw": 15.0,
+            "potencia_cv": 20.0,
+            "potencia_hp": 20.1,
+            "tensao_v": [380, 440],
+            "tensao_configuracao": "380V/440V (△/Y)",
+            "corrente_nominal_380v_a": 29.0,
+            "corrente_nominal_440v_a": 25.0,
+            "corrente_partida_rotor_bloqueado_380v_a": 203.0,
+            "frequencia_hz": 60,
+            "numero_fases": 3,
+            "fator_potencia": 0.85,
+            "fator_potencia_75_carga": 0.83,
+            "rendimento_100_carga_percent": 91.8,
+            "rendimento_75_carga_percent": 92.1,
+            "rendimento_50_carga_percent": 91.3,
+            "classe_isolamento": "F",
+            "elevacao_temperatura_classe": "B",
+            "resistencia_isolamento_min_mohm": 100,
+            "categoria_conjugado": "N"
+          },
+          "mecanicos": {
+            "rotacao_sincrona_rpm": 1800,
+            "rotacao_nominal_rpm": 1770,
+            "numero_polos": 4,
+            "torque_nominal_nm": 81.0,
+            "torque_partida_nm": 186.3,
+            "torque_partida_percentual": 230,
+            "torque_maximo_nm": 194.4,
+            "torque_maximo_percentual": 240,
+            "momento_inercia_kgm2": 0.075,
+            "tipo_carcaca": "160",
+            "material_carcaca": "ferro_fundido",
+            "altura_eixo_mm": 160,
+            "tipo_montagem_disponiveis": ["B3", "B5"],
+            "tipo_montagem_padrao": "B3",
+            "forma_construtiva_iec": "IM1001",
+            "tipo_acoplamento": "ponta_eixo_cilindrica",
+            "diametro_ponta_eixo_mm": 42,
+            "comprimento_ponta_eixo_mm": 110,
+            "chaveta_dim_mm": "12 x 8 x 70",
+            "sentido_rotacao": "reversivel",
+            "tipo_rolamento_dianteiro": "6309",
+            "tipo_rolamento_traseiro": "6308",
+            "peso_kg": 88,
+            "dimensoes_mm": {
+              "comprimento_total": 500,
+              "largura": 275,
+              "altura": 330
+            }
+          },
+          "operacionais": {
+            "grau_protecao": "IP55",
+            "grau_protecao_descricao": "Totalmente protegido contra poeira e jatos d'água",
+            "eficiencia_energetica": "IE3",
+            "eficiencia_energetica_descricao": "Premium Efficiency",
+            "regime_trabalho": "S1",
+            "regime_trabalho_descricao": "Serviço contínuo",
+            "temp_ambiente_min_c": -15,
+            "temp_ambiente_max_c": 40,
+            "temp_ambiente_nominal_c": 40,
+            "altitude_max_m": 1000,
+            "umidade_relativa_max_percent": 90,
+            "tipo_refrigeracao": "IC411",
+            "tipo_refrigeracao_descricao": "Ventilação superficial - autoventilado",
+            "nivel_ruido_db": 69,
+            "nivel_ruido_referencia": "1 metro",
+            "classe_vibracao": "B",
+            "classe_vibracao_norma": "ISO 10816-1",
+            "tempo_aceleracao_s": 3.0,
+            "fator_servico": 1.1
+          },
+          "aplicacao": {
+            "tipos_bomba_compativel": ["centrifuga", "multiestágio"],
+            "fluidos_compativeis": ["agua_limpa", "agua_industrial"],
+            "ambientes_instalacao": ["industrial_coberto", "industrial_aberto"],
+            "preparado_inversor": false,
+            "isolamento_vfd": null,
+            "frequencia_operacao_vfd_min_hz": null,
+            "frequencia_operacao_vfd_max_hz": null,
+            "normas_projeto": ["NBR 17094-1", "IEC 60034-1"],
+            "normas_eficiencia": ["NBR 17094-3", "IEC 60034-30-1"],
+            "certificacoes": ["INMETRO"],
+            "numero_certificado_inmetro": "BR-RS-000456-2024"
+          },
+          "protecoes": {
+            "protecao_termica_tipo": "bimetalico",
+            "protecao_termica_quantidade": 3,
+            "protecao_termica_localizacao": "enrolamentos_estator",
+            "termostato_disponivel": true,
+            "resistencia_anticondensacao_disponivel": false,
+            "resistencia_anticondensacao_potencia_w": null
+          }
+        },
+        "comercial": {
+          "preco_base_brl": 6800.0,
+          "preco_com_impostos_brl": 9180.0,
+          "impostos_inclusos": false,
+          "desconto_volume_5_unidades_percent": 5,
+          "desconto_volume_10_unidades_percent": 9,
+          "prazo_entrega_dias": 20,
+          "prazo_entrega_descricao": "dias úteis após confirmação",
+          "disponibilidade": "em_estoque",
+          "estoque_quantidade": 5,
+          "estoque_localizacao": "CD_PortoAlegre_RS",
+          "garantia_meses": 12,
+          "garantia_descricao": "12 meses contra defeitos de fabricação",
+          "condicoes_pagamento": [
+            "30% antecipado + 70% em 30 dias",
+            "À vista com 2% desconto"
+          ],
+          "frete_tipo": "FOB",
+          "peso_embalado_kg": 98,
+          "dimensoes_embalagem_cm": "66 x 42 x 46",
+          "origem_produto": "Nacional - Porto Alegre/RS"
+        },
+        "opcionais": [],
+        "documentacao_incluida": [
+          "Manual de instalação e operação (PT-BR)",
+          "Certificado de conformidade INMETRO",
+          "Desenho dimensional (PDF)",
+          "Termo de garantia"
+        ],
+        "suporte_tecnico": {
+          "assistencia_tecnica_disponivel": true,
+          "atendimento_emergencial_24h": false,
+          "cobertura_geografica": "Sul/Sudeste",
+          "tempo_resposta_horas": 48,
+          "pecas_reposicao_disponiveis": true,
+          "treinamento_disponivel": false
+        }
+      },
+      {
+        "codigo_produto": "VOGES-VM160-4P",
+        "fabricante": "VOGES",
+        "linha_produto": "Standard Line",
+        "descricao_comercial": "Motor Voges 15kW 4 Polos IE2",
+        "categoria": "motor_eletrico_industrial",
+        "aplicacoes_recomendadas": [
+          "bombas_centrifugas",
+          "ventiladores",
+          "aplicacoes_basicas"
+        ],
+        "especificacoes": {
+          "eletricos": {
+            "potencia_kw": 15.0,
+            "potencia_cv": 20.0,
+            "potencia_hp": 20.1,
+            "tensao_v": [380],
+            "tensao_configuracao": "380V (△)",
+            "corrente_nominal_380v_a": 30.5,
+            "corrente_nominal_440v_a": null,
+            "corrente_partida_rotor_bloqueado_380v_a": 213.5,
+            "frequencia_hz": 60,
+            "numero_fases": 3,
+            "fator_potencia": 0.82,
+            "fator_potencia_75_carga": 0.8,
+            "rendimento_100_carga_percent": 91.0,
+            "rendimento_75_carga_percent": 91.2,
+            "rendimento_50_carga_percent": 90.5,
+            "classe_isolamento": "F",
+            "elevacao_temperatura_classe": "B",
+            "resistencia_isolamento_min_mohm": 50,
+            "categoria_conjugado": "N"
+          },
+          "mecanicos": {
+            "rotacao_sincrona_rpm": 1800,
+            "rotacao_nominal_rpm": 1750,
+            "numero_polos": 4,
+            "torque_nominal_nm": 82.0,
+            "torque_partida_nm": 180.4,
+            "torque_partida_percentual": 220,
+            "torque_maximo_nm": 188.6,
+            "torque_maximo_percentual": 230,
+            "momento_inercia_kgm2": 0.072,
+            "tipo_carcaca": "160",
+            "material_carcaca": "ferro_fundido",
+            "altura_eixo_mm": 160,
+            "tipo_montagem_disponiveis": ["B3"],
+            "tipo_montagem_padrao": "B3",
+            "forma_construtiva_iec": "IM1001",
+            "tipo_acoplamento": "ponta_eixo_cilindrica",
+            "diametro_ponta_eixo_mm": 42,
+            "comprimento_ponta_eixo_mm": 110,
+            "chaveta_dim_mm": "12 x 8 x 70",
+            "sentido_rotacao": "horario",
+            "tipo_rolamento_dianteiro": "6309",
+            "tipo_rolamento_traseiro": "6308",
+            "peso_kg": 85,
+            "dimensoes_mm": {
+              "comprimento_total": 490,
+              "largura": 270,
+              "altura": 325
+            }
+          },
+          "operacionais": {
+            "grau_protecao": "IP54",
+            "grau_protecao_descricao": "Protegido contra poeira e respingos d'água",
+            "eficiencia_energetica": "IE2",
+            "eficiencia_energetica_descricao": "High Efficiency",
+            "regime_trabalho": "S1",
+            "regime_trabalho_descricao": "Serviço contínuo",
+            "temp_ambiente_min_c": -10,
+            "temp_ambiente_max_c": 40,
+            "temp_ambiente_nominal_c": 40,
+            "altitude_max_m": 1000,
+            "umidade_relativa_max_percent": 90,
+            "tipo_refrigeracao": "IC411",
+            "tipo_refrigeracao_descricao": "Ventilação superficial - autoventilado",
+            "nivel_ruido_db": 72,
+            "nivel_ruido_referencia": "1 metro",
+            "classe_vibracao": "B",
+            "classe_vibracao_norma": "ISO 10816-1",
+            "tempo_aceleracao_s": 3.3,
+            "fator_servico": 1.0
+          },
+          "aplicacao": {
+            "tipos_bomba_compativel": ["centrifuga"],
+            "fluidos_compativeis": ["agua_limpa"],
+            "ambientes_instalacao": ["industrial_coberto"],
+            "preparado_inversor": false,
+            "isolamento_vfd": null,
+            "frequencia_operacao_vfd_min_hz": null,
+            "frequencia_operacao_vfd_max_hz": null,
+            "normas_projeto": ["NBR 17094-1"],
+            "normas_eficiencia": ["NBR 17094-3"],
+            "certificacoes": ["INMETRO"],
+            "numero_certificado_inmetro": "BR-SP-000789-2023"
+          },
+          "protecoes": {
+            "protecao_termica_tipo": "bimetalico",
+            "protecao_termica_quantidade": 3,
+            "protecao_termica_localizacao": "enrolamentos_estator",
+            "termostato_disponivel": false,
+            "resistencia_anticondensacao_disponivel": false,
+            "resistencia_anticondensacao_potencia_w": null
+          }
+        },
+        "comercial": {
+          "preco_base_brl": 5900.0,
+          "preco_com_impostos_brl": 7965.0,
+          "impostos_inclusos": false,
+          "desconto_volume_5_unidades_percent": 4,
+          "desconto_volume_10_unidades_percent": 7,
+          "prazo_entrega_dias": 7,
+          "prazo_entrega_descricao": "dias úteis - pronta entrega",
+          "disponibilidade": "pronta_entrega",
+          "estoque_quantidade": 25,
+          "estoque_localizacao": "CD_SaoPaulo_SP",
+          "garantia_meses": 12,
+          "garantia_descricao": "12 meses contra defeitos de fabricação",
+          "condicoes_pagamento": ["À vista", "28 dias", "Parcelado em 2x"],
+          "frete_tipo": "FOB",
+          "peso_embalado_kg": 94,
+          "dimensoes_embalagem_cm": "64 x 40 x 45",
+          "origem_produto": "Nacional - São Paulo/SP"
+        },
+        "opcionais": [],
+        "documentacao_incluida": [
+          "Manual de instalação (PT-BR)",
+          "Certificado INMETRO",
+          "Termo de garantia"
+        ],
+        "suporte_tecnico": {
+          "assistencia_tecnica_disponivel": true,
+          "atendimento_emergencial_24h": false,
+          "cobertura_geografica": "São Paulo/Região",
+          "tempo_resposta_horas": 72,
+          "pecas_reposicao_disponiveis": true,
+          "treinamento_disponivel": false
+        }
+      },
+      {
+        "codigo_produto": "SEW-DRS100M4BE30",
+        "fabricante": "SEW-EURODRIVE",
+        "linha_produto": "DRS Standard",
+        "descricao_comercial": "Motor Elétrico SEW DRS 15kW 4 Polos",
+        "categoria": "motor_eletrico_industrial",
+        "aplicacoes_recomendadas": [
+          "bombas_centrifugas",
+          "bombas_multiestágio",
+          "transportadores",
+          "misturadores"
+        ],
+        "especificacoes": {
+          "eletricos": {
+            "potencia_kw": 15.0,
+            "potencia_cv": 20.0,
+            "potencia_hp": 20.1,
+            "tensao_v": [380, 440],
+            "tensao_configuracao": "380V/440V (△/Y)",
+            "corrente_nominal_380v_a": 29.2,
+            "corrente_nominal_440v_a": 25.3,
+            "corrente_partida_rotor_bloqueado_380v_a": 204.4,
+            "frequencia_hz": 60,
+            "numero_fases": 3,
+            "fator_potencia": 0.84,
+            "fator_potencia_75_carga": 0.82,
+            "rendimento_100_carga_percent": 91.5,
+            "rendimento_75_carga_percent": 91.8,
+            "rendimento_50_carga_percent": 91.0,
+            "classe_isolamento": "F",
+            "elevacao_temperatura_classe": "B",
+            "resistencia_isolamento_min_mohm": 100,
+            "categoria_conjugado": "N"
+          },
+          "mecanicos": {
+            "rotacao_sincrona_rpm": 1800,
+            "rotacao_nominal_rpm": 1760,
+            "numero_polos": 4,
+            "torque_nominal_nm": 81.4,
+            "torque_partida_nm": 187.3,
+            "torque_partida_percentual": 230,
+            "torque_maximo_nm": 195.4,
+            "torque_maximo_percentual": 240,
+            "momento_inercia_kgm2": 0.078,
+            "tipo_carcaca": "100M",
+            "material_carcaca": "aluminio",
+            "altura_eixo_mm": 160,
+            "tipo_montagem_disponiveis": ["B3", "B5", "B14"],
+            "tipo_montagem_padrao": "B3",
+            "forma_construtiva_iec": "IM1001",
+            "tipo_acoplamento": "ponta_eixo_cilindrica",
+            "diametro_ponta_eixo_mm": 42,
+            "comprimento_ponta_eixo_mm": 110,
+            "chaveta_dim_mm": "12 x 8 x 70",
+            "sentido_rotacao": "reversivel",
+            "tipo_rolamento_dianteiro": "6309",
+            "tipo_rolamento_traseiro": "6308",
+            "peso_kg": 92,
+            "dimensoes_mm": {
+              "comprimento_total": 495,
+              "largura": 270,
+              "altura": 325
+            }
+          },
+          "operacionais": {
+            "grau_protecao": "IP54",
+            "grau_protecao_descricao": "Protegido contra poeira e respingos d'água",
+            "eficiencia_energetica": "IE2",
+            "eficiencia_energetica_descricao": "High Efficiency",
+            "regime_trabalho": "S1",
+            "regime_trabalho_descricao": "Serviço contínuo",
+            "temp_ambiente_min_c": -15,
+            "temp_ambiente_max_c": 40,
+            "temp_ambiente_nominal_c": 40,
+            "altitude_max_m": 1000,
+            "umidade_relativa_max_percent": 95,
+            "tipo_refrigeracao": "IC411",
+            "tipo_refrigeracao_descricao": "Ventilação superficial - autoventilado",
+            "nivel_ruido_db": 70,
+            "nivel_ruido_referencia": "1 metro",
+            "classe_vibracao": "A",
+            "classe_vibracao_norma": "ISO 10816-1",
+            "tempo_aceleracao_s": 3.1,
+            "fator_servico": 1.0
+          },
+          "aplicacao": {
+            "tipos_bomba_compativel": ["centrifuga", "multiestágio"],
+            "fluidos_compativeis": ["agua_limpa", "agua_industrial"],
+            "ambientes_instalacao": ["industrial_coberto"],
+            "preparado_inversor": true,
+            "isolamento_vfd": "IEC 60034-17",
+            "frequencia_operacao_vfd_min_hz": 30,
+            "frequencia_operacao_vfd_max_hz": 70,
+            "normas_projeto": ["IEC 60034-1", "DIN EN 60034"],
+            "normas_eficiencia": ["IEC 60034-30-1"],
+            "certificacoes": ["CE"],
+            "numero_certificado_inmetro": null
+          },
+          "protecoes": {
+            "protecao_termica_tipo": "KTY84",
+            "protecao_termica_quantidade": 3,
+            "protecao_termica_localizacao": "enrolamentos_estator",
+            "termostato_disponivel": false,
+            "resistencia_anticondensacao_disponivel": false,
+            "resistencia_anticondensacao_potencia_w": null
+          }
+        },
+        "comercial": {
+          "preco_base_brl": 7200.0,
+          "preco_com_impostos_brl": 9720.0,
+          "impostos_inclusos": false,
+          "desconto_volume_5_unidades_percent": 4,
+          "desconto_volume_10_unidades_percent": 7,
+          "prazo_entrega_dias": 30,
+          "prazo_entrega_descricao": "dias úteis - sob encomenda",
+          "disponibilidade": "sob_encomenda",
+          "estoque_quantidade": 0,
+          "estoque_localizacao": null,
+          "garantia_meses": 12,
+          "garantia_descricao": "12 meses contra defeitos de fabricação",
+          "condicoes_pagamento": [
+            "50% antecipado + 50% contra entrega",
+            "Parcelado em 2x sem juros"
+          ],
+          "frete_tipo": "FOB",
+          "peso_embalado_kg": 102,
+          "dimensoes_embalagem_cm": "68 x 43 x 48",
+          "origem_produto": "Importado - Alemanha"
+        },
+        "opcionais": [
+          {
+            "codigo": "TERMO-KTY",
+            "descricao": "Termistor KTY84 adicional",
+            "localizacao": "Rolamento traseiro",
+            "preco_brl": 320.0,
+            "prazo_adicional_dias": 0
+          }
+        ],
+        "documentacao_incluida": [
+          "Manual de instalação e operação (EN/DE)",
+          "Desenho dimensional (PDF)",
+          "Curvas de desempenho",
+          "Termo de garantia"
+        ],
+        "suporte_tecnico": {
+          "assistencia_tecnica_disponivel": true,
+          "atendimento_emergencial_24h": false,
+          "cobertura_geografica": "Sudeste/Sul",
+          "tempo_resposta_horas": 48,
+          "pecas_reposicao_disponiveis": true,
+          "treinamento_disponivel": false
+        }
+      },
+      {
+        "codigo_produto": "SIEMENS-1LE1003-1DB23-4AA4",
+        "fabricante": "SIEMENS",
+        "linha_produto": "SIMOTICS GP Low Voltage",
+        "descricao_comercial": "Motor Siemens SIMOTICS GP 15kW 4 Polos IE3",
+        "categoria": "motor_eletrico_industrial",
+        "aplicacoes_recomendadas": [
+          "bombas_centrifugas",
+          "bombas_multiestágio",
+          "bombas_parafuso",
+          "ventiladores",
+          "compressores",
+          "aplicacoes_criticas"
+        ],
+        "especificacoes": {
+          "eletricos": {
+            "potencia_kw": 15.0,
+            "potencia_cv": 20.0,
+            "potencia_hp": 20.1,
+            "tensao_v": [380, 440],
+            "tensao_configuracao": "380V/440V (△/Y)",
+            "corrente_nominal_380v_a": 28.0,
+            "corrente_nominal_440v_a": 24.2,
+            "corrente_partida_rotor_bloqueado_380v_a": 196.0,
+            "frequencia_hz": 60,
+            "numero_fases": 3,
+            "fator_potencia": 0.87,
+            "fator_potencia_75_carga": 0.85,
+            "rendimento_100_carga_percent": 92.3,
+            "rendimento_75_carga_percent": 92.7,
+            "rendimento_50_carga_percent": 92.0,
+            "classe_isolamento": "F",
+            "elevacao_temperatura_classe": "B",
+            "resistencia_isolamento_min_mohm": 100,
+            "categoria_conjugado": "N"
+          },
+          "mecanicos": {
+            "rotacao_sincrona_rpm": 1800,
+            "rotacao_nominal_rpm": 1785,
+            "numero_polos": 4,
+            "torque_nominal_nm": 80.2,
+            "torque_partida_nm": 200.5,
+            "torque_partida_percentual": 250,
+            "torque_maximo_nm": 200.5,
+            "torque_maximo_percentual": 250,
+            "momento_inercia_kgm2": 0.085,
+            "tipo_carcaca": "160M",
+            "material_carcaca": "ferro_fundido",
+            "altura_eixo_mm": 160,
+            "tipo_montagem_disponiveis": [
+              "B3",
+              "B5",
+              "B14",
+              "B34",
+              "B35",
+              "V1"
+            ],
+            "tipo_montagem_padrao": "B3",
+            "forma_construtiva_iec": "IM1001",
+            "tipo_acoplamento": "ponta_eixo_cilindrica",
+            "diametro_ponta_eixo_mm": 42,
+            "comprimento_ponta_eixo_mm": 110,
+            "chaveta_dim_mm": "12 x 8 x 70",
+            "sentido_rotacao": "reversivel",
+            "tipo_rolamento_dianteiro": "6309-C3",
+            "tipo_rolamento_traseiro": "6308-C3",
+            "peso_kg": 98,
+            "dimensoes_mm": {
+              "comprimento_total": 520,
+              "largura": 285,
+              "altura": 335
+            }
+          },
+          "operacionais": {
+            "grau_protecao": "IP55",
+            "grau_protecao_descricao": "Totalmente protegido contra poeira e jatos d'água",
+            "eficiencia_energetica": "IE3",
+            "eficiencia_energetica_descricao": "Premium Efficiency",
+            "regime_trabalho": "S1",
+            "regime_trabalho_descricao": "Serviço contínuo",
+            "temp_ambiente_min_c": -20,
+            "temp_ambiente_max_c": 40,
+            "temp_ambiente_nominal_c": 40,
+            "altitude_max_m": 1000,
+            "umidade_relativa_max_percent": 95,
+            "tipo_refrigeracao": "IC411",
+            "tipo_refrigeracao_descricao": "Ventilação superficial - autoventilado",
+            "nivel_ruido_db": 67,
+            "nivel_ruido_referencia": "1 metro",
+            "classe_vibracao": "A",
+            "classe_vibracao_norma": "ISO 10816-1",
+            "tempo_aceleracao_s": 2.7,
+            "fator_servico": 1.15
+          },
+          "aplicacao": {
+            "tipos_bomba_compativel": [
+              "centrifuga",
+              "multiestágio",
+              "parafuso",
+              "engrenagem"
+            ],
+            "fluidos_compativeis": [
+              "agua_limpa",
+              "agua_industrial",
+              "agua_tratamento",
+              "quimicos_leves"
+            ],
+            "ambientes_instalacao": [
+              "industrial_coberto",
+              "industrial_aberto",
+              "ambiente_agressivo",
+              "area_externa",
+              "offshore"
+            ],
+            "preparado_inversor": true,
+            "isolamento_vfd": "IEC 60034-17 / IEC 60034-18-41",
+            "frequencia_operacao_vfd_min_hz": 20,
+            "frequencia_operacao_vfd_max_hz": 90,
+            "normas_projeto": ["IEC 60034-1", "IEC 60034-30-1", "NEMA MG-1"],
+            "normas_eficiencia": ["IEC 60034-30-1", "EN 60034-30-1"],
+            "certificacoes": ["CE", "UL", "CSA", "EAC"],
+            "numero_certificado_inmetro": null
+          },
+          "protecoes": {
+            "protecao_termica_tipo": "PT100",
+            "protecao_termica_quantidade": 6,
+            "protecao_termica_localizacao": "enrolamentos_estator_e_rolamentos",
+            "termostato_disponivel": true,
+            "resistencia_anticondensacao_disponivel": true,
+            "resistencia_anticondensacao_potencia_w": 80
+          }
+        },
+        "comercial": {
+          "preco_base_brl": 9800.0,
+          "preco_com_impostos_brl": 13230.0,
+          "impostos_inclusos": false,
+          "desconto_volume_5_unidades_percent": 6,
+          "desconto_volume_10_unidades_percent": 10,
+          "prazo_entrega_dias": 45,
+          "prazo_entrega_descricao": "dias úteis - importação",
+          "disponibilidade": "importacao",
+          "estoque_quantidade": 0,
+          "estoque_localizacao": null,
+          "garantia_meses": 24,
+          "garantia_descricao": "24 meses contra defeitos de fabricação",
+          "condicoes_pagamento": [
+            "50% antecipado + 50% contra embarque",
+            "Carta de crédito"
+          ],
+          "frete_tipo": "FOB",
+          "weight_embalado_kg": 110,
+          "dimensoes_embalagem_cm": "72 x 46 x 52",
+          "origem_produto": "Importado - Alemanha"
+        },
+        "opcionais": [
+          {
+            "codigo": "PT100-6W",
+            "descricao": "Sensor PT100 com 6 terminais (redundante)",
+            "localizacao": "Enrolamentos",
+            "preco_brl": 580.0,
+            "prazo_adicional_dias": 0
+          },
+          {
+            "codigo": "BRAKE-DC",
+            "descricao": "Freio DC 24V",
+            "torque_nm": 30,
+            "preco_brl": 1850.0,
+            "prazo_adicional_dias": 10
+          },
+          {
+            "codigo": "ENCODER-HTL",
+            "descricao": "Encoder HTL 1024ppr",
+            "tipo": "Incremental",
+            "preco_brl": 1120.0,
+            "prazo_adicional_dias": 10
+          }
+        ],
+        "documentacao_incluida": [
+          "Manual de instalação e operação (Multi-idioma)",
+          "Desenho dimensional (PDF/DWG)",
+          "Curvas de desempenho completas",
+          "Certificados de teste",
+          "Termo de garantia",
+          "Declaração de conformidade CE/UL"
+        ],
+        "suporte_tecnico": {
+          "assistencia_tecnica_disponivel": true,
+          "atendimento_emergencial_24h": true,
+          "cobertura_geografica": "Global",
+          "tempo_resposta_horas": 12,
+          "pecas_reposicao_disponiveis": true,
+          "treinamento_disponivel": true
+        }
+      }
+    ]
+  }
+}

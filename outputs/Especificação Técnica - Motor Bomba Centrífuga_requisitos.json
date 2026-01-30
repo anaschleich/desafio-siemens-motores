@@ -1,0 +1,119 @@
+{
+  "documento_origem": "Especificação Técnica - Motor Bomba Centrífuga.pdf",
+  "data_extracao": "2026-01-30T10:45:19.693562",
+  "requisitos": {
+    "eletricos": {
+      "potencia_kw": 15,
+      "potencia_cv": 20.41,
+      "potencia_hp": 20.12,
+      "tensao_v": 380,
+      "tensao_tolerancia": 10,
+      "corrente_nominal_a": 30,
+      "frequencia_hz": 60,
+      "numero_fases": 3,
+      "fator_potencia": 0.84,
+      "fator_potencia_desejado": null,
+      "classe_isolamento": "F",
+      "elevacao_temperatura_classe": 155,
+      "eficiencia_minima": "IE2",
+      "eficiencia_desejada": "IE3",
+      "categoria_partida": "DOL",
+      "tipo_partida": "Direta",
+      "preparado_inversor": true,
+      "resistencia_isolamento_min_mohm": null
+    },
+    "mecanicos": {
+      "rotacao_rpm": 1750,
+      "rotacao_tolerancia_rpm": null,
+      "rotacao_tolerancia_percentual": 2,
+      "numero_polos": 4,
+      "torque_nominal_nm": null,
+      "torque_partida_percentual": 180,
+      "torque_maximo_percentual": null,
+      "tipo_montagem": "B3",
+      "forma_construtiva_iec": null,
+      "tipo_acoplamento": "Elastico",
+      "sentido_rotacao": "Horario",
+      "altura_eixo_mm": 160,
+      "carcaca_iec": true,
+      "tipo_eixo": "Cilindrico",
+      "tipo_rolamento": null,
+      "peso_kg": null,
+      "dimensoes_mm": null
+    },
+    "operacionais": {
+      "grau_protecao": "IP55",
+      "eficiencia": null,
+      "regime_trabalho": "S1",
+      "temp_ambiente_min_c": -5,
+      "temp_ambiente_max_c": 40,
+      "temp_ambiente_nominal_c": null,
+      "umidade_relativa_max_percent": 95,
+      "umidade_condensante": false,
+      "altitude_max_m": 850,
+      "tipo_refrigeracao": "IC411",
+      "classe_vibracao": "A",
+      "classe_vibracao_norma": "ISO 10816",
+      "nivel_ruido_max_dba": 70,
+      "nivel_ruido_referencia": "1 metro"
+    },
+    "aplicacao": {
+      "tipo_bomba": "Centrifuga",
+      "fabricante_bomba": null,
+      "modelo_bomba": null,
+      "fluido": "Agua",
+      "fluido_descricao": "Agua de processo (limpa, sem solidos)",
+      "vazao_m3h": 120,
+      "altura_manometrica_m": 45,
+      "pressao_recalque_bar": null,
+      "temperatura_fluido_min_c": 15,
+      "temperatura_fluido_max_c": 35,
+      "regime_operacao": "Continuo",
+      "ambiente": "Casa de bombas",
+      "ambiente_descricao": "Ambiente coberto",
+      "condicoes_especiais": null,
+      "normas": [
+        "NBR 17094-1",
+        "IEC 60034-1",
+        "NBR 17094-3",
+        "IEC 60034-30-1",
+        "NBR IEC 60529",
+        "IEC 60034-2-1"
+      ]
+    },
+    "protecoes": {
+      "protecao_termica_tipo": "Termistores PTC ou PT100",
+      "protecao_termica_quantidade": null,
+      "protecao_termica_localizacao": null,
+      "caixa_ligacao_posicionamento": "Parte superior",
+      "caixa_ligacao_grau_protecao": null,
+      "terminal_aterramento": "Adequadamente dimensionado"
+    },
+    "comercial": {
+      "garantia_minima_meses": 12,
+      "garantia_desejada_meses": null,
+      "prazo_entrega_maximo_dias": 30,
+      "prazo_entrega_desejado_dias": null,
+      "orcamento_disponivel_brl": null,
+      "certificacao_inmetro": true
+    }
+  },
+  "informacoes_faltantes": [
+    "torque_nominal_nm",
+    "peso_kg",
+    "dimensoes_mm",
+    "forma_construtiva_iec",
+    "tipo_rolamento",
+    "resistencia_isolamento_min_mohm"
+  ],
+  "confianca_extracao": {
+    "eletricos": 0.9,
+    "mecanicos": 0.8,
+    "operacionais": 0.9,
+    "aplicacao": 0.9
+  },
+  "observacoes": [
+    "O documento apresenta informações claras e detalhadas sobre os requisitos do motor.",
+    "Foi necessário realizar algumas inferências para completar as informações."
+  ]
+}

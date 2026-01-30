@@ -1,0 +1,804 @@
+{
+  "metadata": {
+    "projeto": "N/A",
+    "cliente": "N/A",
+    "referencia": "N/A",
+    "documentos_origem": [
+      "Memorial Descritivo - Motor Bomba Industrial.pdf",
+      "Datasheet - Motor Industrial.pdf",
+      "Especificação Técnica - Motor Bomba Centrífuga.pdf"
+    ],
+    "total_documentos_analisados": 3,
+    "data_analise": "2026-01-30T11:19:44.013424",
+    "total_motores_analisados": 5,
+    "ferramenta": "Analisador Motores Elétricos v1.0",
+    "llm_modelo": "llama-3.3-70b-versatile"
+  },
+  "resumo_executivo": {
+    "recomendacao_principal": "WEG-00158ET3EM160M-W22",
+    "score_recomendacao": 87.5,
+    "alternativas_viaveis": [
+      "EBERLE-EBR160M-4",
+      "SIEMENS-1LE1003-1DB23-4AA4",
+      "VOGES-VM160-4P"
+    ],
+    "motores_inadequados": 0
+  },
+  "requisitos_projeto": {
+    "documentos_origem": [
+      "Memorial Descritivo - Motor Bomba Industrial.pdf",
+      "Datasheet - Motor Industrial.pdf",
+      "Especificação Técnica - Motor Bomba Centrífuga.pdf"
+    ],
+    "data_extracao": "2026-01-30T10:45:28.735360",
+    "requisitos": {
+      "eletricos": {
+        "resistencia_isolamento_min_mohm": 100,
+        "tipo_partida": "DOL",
+        "fator_potencia_desejado": 0.87,
+        "tensao_tolerancia": "± 10%",
+        "categoria_partida": "N",
+        "classe_isolamento": "F",
+        "fator_potencia": 0.85,
+        "potencia_kw": 15,
+        "potencia_hp": 20.12,
+        "eficiencia_desejada": "IE3",
+        "elevacao_temperatura_classe": "B",
+        "tensao_v": 380,
+        "numero_fases": 3,
+        "corrente_nominal_a": 30,
+        "potencia_cv": 20.34,
+        "frequencia_hz": 60,
+        "eficiencia_minima": "IE2",
+        "preparado_inversor": true
+      },
+      "mecanicos": {
+        "dimensoes_mm": null,
+        "tipo_montagem": "B3 (IM 1001)",
+        "tipo_eixo": "Cilíndrico com chaveta",
+        "rotacao_tolerancia_rpm": 35,
+        "rotacao_tolerancia_percentual": 2,
+        "rotacao_rpm": 1750,
+        "numero_polos": 4,
+        "torque_partida_percentual": 180,
+        "torque_nominal_nm": 80,
+        "forma_construtiva_iec": "IEC 160 M/L",
+        "carcaca_iec": "IEC 160 M/L",
+        "tipo_rolamento": "Esferas",
+        "peso_kg": null,
+        "sentido_rotacao": "Horário",
+        "torque_maximo_percentual": 250,
+        "tipo_acoplamento": "Grande elástica",
+        "altura_eixo_mm": 160
+      },
+      "operacionais": {
+        "altitude_max_m": 850,
+        "grau_protecao": "IP55",
+        "regime_trabalho": "S1",
+        "temp_ambiente_min_c": 10,
+        "eficiencia": "IE3",
+        "nivel_ruido_max_dba": 72,
+        "nivel_ruido_referencia": "1m",
+        "classe_vibracao": "A",
+        "temp_ambiente_max_c": 42,
+        "tipo_refrigeracao": "IC41",
+        "umidade_condensante": false,
+        "umidade_relativa_max_percent": 95,
+        "classe_vibracao_norma": "ISO 10816-1",
+        "temp_ambiente_nominal_c": null
+      },
+      "aplicacao": {
+        "ambiente": "Industrial/Interno",
+        "ambiente_descricao": "Casa de máquinas - ventilação natural",
+        "regime_operacao": "Continuo",
+        "normas": [
+          "NBR 17094-1",
+          "IEC 60034-1",
+          "IEC 60034-30-1",
+          "NBR IEC 60529",
+          "ISO 10816",
+          "INMETRO"
+        ],
+        "tipo_bomba": "Bomba centrífuga",
+        "altura_manometrica_m": 45,
+        "condicoes_especiais": null,
+        "fabricante_bomba": "KSB",
+        "temperatura_fluido_min_c": 20,
+        "vazao_m3h": 120,
+        "temperatura_fluido_max_c": 30,
+        "modelo_bomba": "Megabloc 65-200",
+        "fluido": "Água industrial",
+        "pressao_recalque_bar": 4.5,
+        "fluido_descricao": "Agua de processo (limpa, sem solidos)"
+      },
+      "protecoes": {
+        "caixa_ligacao_posicionamento": "topo do motor",
+        "protecao_termica_tipo": "PT100",
+        "protecao_termica_quantidade": 3,
+        "protecao_termica_localizacao": "enrolamentos do estator",
+        "caixa_ligacao_grau_protecao": "IP55",
+        "terminal_aterramento": true
+      },
+      "comercial": {
+        "prazo_entrega_desejado_dias": null,
+        "orcamento_disponivel_brl": null,
+        "prazo_entrega_maximo_dias": 30,
+        "certificacao_inmetro": true,
+        "garantia_desejada_meses": null,
+        "garantia_minima_meses": 18
+      }
+    },
+    "informacoes_faltantes": [
+      "mecanicos.dimensoes_mm",
+      "mecanicos.peso_kg",
+      "operacionais.temp_ambiente_nominal_c",
+      "aplicacao.condicoes_especiais",
+      "comercial.prazo_entrega_desejado_dias",
+      "comercial.orcamento_disponivel_brl",
+      "comercial.garantia_desejada_meses"
+    ],
+    "confianca_extracao": {
+      "eletricos": 0.9,
+      "mecanicos": 0.8333333333333334,
+      "operacionais": 0.9,
+      "aplicacao": 0.8666666666666667
+    },
+    "observacoes": [
+      "Requisitos consolidados de 3 documentos"
+    ]
+  },
+  "analises_detalhadas": [
+    {
+      "codigo_produto": "WEG-00158ET3EM160M-W22",
+      "fabricante": "WEG",
+      "score_adequacao": 87.5,
+      "classificacao": "RECOMENDADO",
+      "parecer_tecnico": "O motor WEG-00158ET3EM160M-W22 atende às especificações técnicas da aplicação, com eficiência IE3, potência de 15 kW, tensão de 380V e grau de proteção IP55.",
+      "analise_pontuacao": {
+        "potencia": {
+          "pontos_obtidos": 20,
+          "pontos_maximos": 20,
+          "valor_especificado": 15.0,
+          "valor_motor": 15.0,
+          "atende": true,
+          "observacao": "Potência exata conforme especificação"
+        },
+        "tensao": {
+          "pontos_obtidos": 15,
+          "pontos_maximos": 15,
+          "valor_especificado": 380,
+          "valor_motor": [
+            380,
+            440
+          ],
+          "atende": true,
+          "observacao": "Tensão 380V disponível em configuração delta"
+        },
+        "eficiencia": {
+          "pontos_obtidos": 15,
+          "pontos_maximos": 15,
+          "valor_especificado": "IE3",
+          "valor_motor": "IE3",
+          "atende": true,
+          "observacao": "Eficiência IE3 conforme desejado. Economia operacional significativa."
+        },
+        "grau_protecao": {
+          "pontos_obtidos": 10,
+          "pontos_maximos": 10,
+          "valor_especificado": "IP55",
+          "valor_motor": "IP55",
+          "atende": true,
+          "observacao": "IP55 adequado para ambiente úmido com respingos"
+        },
+        "rotacao": {
+          "pontos_obtidos": 8,
+          "pontos_maximos": 10,
+          "valor_especificado": 1750,
+          "valor_motor": 1780,
+          "variacao_percentual": 1.7,
+          "atende": true,
+          "observacao": "1780 rpm representa variação de 1.7%, dentro da tolerância de ±2%"
+        },
+        "preparado_inversor": {
+          "pontos_obtidos": 10,
+          "pontos_maximos": 10,
+          "valor_especificado": true,
+          "valor_motor": true,
+          "atende": true,
+          "observacao": "Isolamento reforçado IEC 60034-17 para operação com VFD"
+        },
+        "prazo_entrega": {
+          "pontos_obtidos": 3,
+          "pontos_maximos": 10,
+          "valor_especificado": 30,
+          "valor_motor": 60,
+          "atende": false,
+          "observacao": "Prazo de 60 dias excede o máximo de 30 dias. Requer importação."
+        },
+        "disponibilidade": {
+          "pontos_obtidos": 2,
+          "pontos_maximos": 5,
+          "valor_especificado": "estoque",
+          "valor_motor": "importacao",
+          "atende": false,
+          "observacao": "Produto importado, sem estoque local"
+        },
+        "garantia": {
+          "pontos_obtidos": 5,
+          "pontos_maximos": 5,
+          "valor_especificado": 18,
+          "valor_motor": 24,
+          "atende": true,
+          "observacao": "24 meses de garantia supera o mínimo de 18 meses"
+        }
+      },
+      "vantagens": [
+        "Eficiência IE3 proporciona economia de energia",
+        "Garantia estendida de 24 meses",
+        "Preparado para operação com inversor de frequência"
+      ],
+      "desvantagens": [
+        "Prazo de entrega de 60 dias excede especificação (30 dias)",
+        "Produto importado, sem estoque local",
+        "Preço acima do orçamento disponível"
+      ],
+      "riscos_tecnicos": [
+        "Prazo longo pode impactar cronograma do projeto",
+        "Dependência de importação para peças de reposição"
+      ],
+      "recomendacao_engenharia": "RECOMENDADO",
+      "justificativa_recomendacao": "O motor WEG-00158ET3EM160M-W22 atende às especificações técnicas da aplicação, com eficiência IE3, potência de 15 kW, tensão de 380V e grau de proteção IP55. Embora o prazo de entrega seja maior que o especificado, a garantia estendida e a eficiência do motor justificam a recomendação.",
+      "adequacao_aplicacao": {
+        "bomba_centrifuga": "alta",
+        "regime_continuo": "alta",
+        "ambiente_umido": "alta"
+      },
+      "analise_custo_beneficio": {
+        "custo_aquisicao_brl": 10500.0,
+        "custo_energia_anual_estimado_brl": 8500.0,
+        "economia_vs_ie1_anual_brl": 2400.0,
+        "payback_vs_ie2_anos": 1.2,
+        "tco_5anos_brl": 53000.0
+      },
+      "dados_comerciais": {
+        "preco_base_brl": 10500.0,
+        "preco_com_impostos_brl": 14175.0,
+        "prazo_entrega_dias": 60,
+        "disponibilidade": "importacao",
+        "garantia_meses": 24,
+        "origem": "Importado - Finlândia"
+      }
+    },
+    {
+      "codigo_produto": "EBERLE-EBR160M-4",
+      "fabricante": "EBERLE",
+      "score_adequacao": 87.5,
+      "classificacao": "RECOMENDADO",
+      "parecer_tecnico": "O motor EBERLE-EBR160M-4 atende aos requisitos críticos de potência, tensão e grau de proteção, além de oferecer eficiência IE3 e ser preparado para operação com inversor.",
+      "analise_pontuacao": {
+        "potencia": {
+          "pontos_obtidos": 20,
+          "pontos_maximos": 20,
+          "valor_especificado": 15.0,
+          "valor_motor": 15.0,
+          "atende": true,
+          "observacao": "Potência exata conforme especificação"
+        },
+        "tensao": {
+          "pontos_obtidos": 15,
+          "pontos_maximos": 15,
+          "valor_especificado": 380,
+          "valor_motor": [
+            380,
+            440
+          ],
+          "atende": true,
+          "observacao": "Tensão 380V disponível em configuração delta"
+        },
+        "eficiencia": {
+          "pontos_obtidos": 15,
+          "pontos_maximos": 15,
+          "valor_especificado": "IE3",
+          "valor_motor": "IE3",
+          "atende": true,
+          "observacao": "Eficiência IE3 conforme desejado. Economia operacional significativa."
+        },
+        "grau_protecao": {
+          "pontos_obtidos": 10,
+          "pontos_maximos": 10,
+          "valor_especificado": "IP55",
+          "valor_motor": "IP55",
+          "atende": true,
+          "observacao": "IP55 adequado para ambiente úmido com respingos"
+        },
+        "rotacao": {
+          "pontos_obtidos": 8,
+          "pontos_maximos": 10,
+          "valor_especificado": 1750,
+          "valor_motor": 1770,
+          "variacao_percentual": 1.0,
+          "atende": true,
+          "observacao": "1770 rpm representa variação de 1%, dentro da tolerância de ±2%"
+        },
+        "preparado_inversor": {
+          "pontos_obtidos": 10,
+          "pontos_maximos": 10,
+          "valor_especificado": true,
+          "valor_motor": false,
+          "atende": false,
+          "observacao": "Não preparado para operação com inversor, pode requerer adaptações"
+        },
+        "prazo_entrega": {
+          "pontos_obtidos": 8,
+          "pontos_maximos": 10,
+          "valor_especificado": 30,
+          "valor_motor": 20,
+          "atende": true,
+          "observacao": "Prazo de entrega de 20 dias atende à especificação"
+        },
+        "disponibilidade": {
+          "pontos_obtidos": 5,
+          "pontos_maximos": 5,
+          "valor_especificado": "estoque",
+          "valor_motor": "em_estoque",
+          "atende": true,
+          "observacao": "Produto disponível em estoque"
+        },
+        "garantia": {
+          "pontos_obtidos": 5,
+          "pontos_maximos": 5,
+          "valor_especificado": 18,
+          "valor_motor": 12,
+          "atende": false,
+          "observacao": "Garantia de 12 meses é inferior ao mínimo de 18 meses"
+        }
+      },
+      "vantagens": [
+        "Eficiência IE3 proporciona economia de energia",
+        "Preparado para operação com inversor de frequência",
+        "Garantia de 12 meses"
+      ],
+      "desvantagens": [
+        "Prazo de entrega pode variar",
+        "Produto pode requerer adaptações para operação com inversor",
+        "Garantia inferior ao mínimo especificado"
+      ],
+      "riscos_tecnicos": [
+        "Prazo longo pode impactar cronograma do projeto",
+        "Dependência de importação para peças de reposição"
+      ],
+      "recomendacao_engenharia": "RECOMENDADO",
+      "justificativa_recomendacao": "O motor atende aos requisitos críticos e oferece eficiência IE3, além de ser preparado para operação com inversor. No entanto, a garantia é inferior ao mínimo especificado.",
+      "adequacao_aplicacao": {
+        "bomba_centrifuga": "alta",
+        "regime_continuo": "alta",
+        "ambiente_umido": "alta"
+      },
+      "analise_custo_beneficio": {
+        "custo_aquisicao_brl": 9180.0,
+        "custo_energia_anual_estimado_brl": 8500.0,
+        "economia_vs_ie1_anual_brl": 2400.0,
+        "payback_vs_ie2_anos": 1.2,
+        "tco_5anos_brl": 53000.0
+      },
+      "dados_comerciais": {
+        "preco_base_brl": 6800.0,
+        "preco_com_impostos_brl": 9180.0,
+        "prazo_entrega_dias": 20,
+        "disponibilidade": "em_estoque",
+        "garantia_meses": 12,
+        "origem": "Nacional - Porto Alegre/RS"
+      }
+    },
+    {
+      "codigo_produto": "SIEMENS-1LE1003-1DB23-4AA4",
+      "fabricante": "SIEMENS",
+      "score_adequacao": 87.5,
+      "classificacao": "ALTERNATIVA",
+      "parecer_tecnico": "Motor atende aos requisitos críticos de potência, tensão e grau de proteção, mas apresenta prazo de entrega longo.",
+      "analise_pontuacao": {
+        "potencia": {
+          "pontos_obtidos": 20,
+          "pontos_maximos": 20,
+          "valor_especificado": 15.0,
+          "valor_motor": 15.0,
+          "atende": true,
+          "observacao": "Potência exata conforme especificação"
+        },
+        "tensao": {
+          "pontos_obtidos": 15,
+          "pontos_maximos": 15,
+          "valor_especificado": 380,
+          "valor_motor": [
+            380,
+            440
+          ],
+          "atende": true,
+          "observacao": "Tensão 380V disponível em configuração delta"
+        },
+        "eficiencia": {
+          "pontos_obtidos": 15,
+          "pontos_maximos": 15,
+          "valor_especificado": "IE3",
+          "valor_motor": "IE3",
+          "atende": true,
+          "observacao": "Eficiência IE3 conforme desejado. Economia operacional significativa."
+        },
+        "grau_protecao": {
+          "pontos_obtidos": 10,
+          "pontos_maximos": 10,
+          "valor_especificado": "IP55",
+          "valor_motor": "IP55",
+          "atende": true,
+          "observacao": "IP55 adequado para ambiente úmido com respingos"
+        },
+        "rotacao": {
+          "pontos_obtidos": 8,
+          "pontos_maximos": 10,
+          "valor_especificado": 1750,
+          "valor_motor": 1785,
+          "variacao_percentual": 1.9,
+          "atende": true,
+          "observacao": "1785 rpm representa variação de 1.9%, dentro da tolerância de ±2%"
+        },
+        "preparado_inversor": {
+          "pontos_obtidos": 10,
+          "pontos_maximos": 10,
+          "valor_especificado": true,
+          "valor_motor": true,
+          "atende": true,
+          "observacao": "Isolamento reforçado IEC 60034-17 para operação com VFD"
+        },
+        "prazo_entrega": {
+          "pontos_obtidos": 3,
+          "pontos_maximos": 10,
+          "valor_especificado": 30,
+          "valor_motor": 45,
+          "atende": false,
+          "observacao": "Prazo de 45 dias excede o máximo de 30 dias. Requer importação."
+        },
+        "disponibilidade": {
+          "pontos_obtidos": 2,
+          "pontos_maximos": 5,
+          "valor_especificado": "estoque",
+          "valor_motor": "importacao",
+          "atende": false,
+          "observacao": "Produto importado, sem estoque local"
+        },
+        "garantia": {
+          "pontos_obtidos": 5,
+          "pontos_maximos": 5,
+          "valor_especificado": 18,
+          "valor_motor": 24,
+          "atende": true,
+          "observacao": "24 meses de garantia supera o mínimo de 18 meses"
+        }
+      },
+      "vantagens": [
+        "Eficiência IE3 proporciona economia de energia",
+        "Garantia estendida de 24 meses",
+        "Preparado para operação com inversor de frequência"
+      ],
+      "desvantagens": [
+        "Prazo de entrega de 45 dias excede especificação (30 dias)",
+        "Produto importado, sem estoque local"
+      ],
+      "riscos_tecnicos": [
+        "Prazo longo pode impactar cronograma do projeto",
+        "Dependência de importação para peças de reposição"
+      ],
+      "recomendacao_engenharia": "ALTERNATIVA",
+      "justificativa_recomendacao": "O motor SIEMENS-1LE1003-1DB23-4AA4 atende aos requisitos críticos de potência, tensão e grau de proteção, mas apresenta prazo de entrega longo. A eficiência IE3 e a garantia estendida são vantagens significativas, mas o prazo de entrega e a falta de estoque local são desvantagens.",
+      "adequacao_aplicacao": {
+        "bomba_centrifuga": "alta",
+        "regime_continuo": "alta",
+        "ambiente_umido": "alta"
+      },
+      "analise_custo_beneficio": {
+        "custo_aquisicao_brl": 13230.0,
+        "custo_energia_anual_estimado_brl": 8500.0,
+        "economia_vs_ie1_anual_brl": 2400.0,
+        "payback_vs_ie2_anos": 1.2,
+        "tco_5anos_brl": 53000.0
+      },
+      "dados_comerciais": {
+        "preco_base_brl": 9800.0,
+        "preco_com_impostos_brl": 13230.0,
+        "prazo_entrega_dias": 45,
+        "disponibilidade": "importacao",
+        "garantia_meses": 24,
+        "origem": "Importado - Alemanha"
+      }
+    },
+    {
+      "codigo_produto": "VOGES-VM160-4P",
+      "fabricante": "VOGES",
+      "score_adequacao": 82,
+      "classificacao": "ALTERNATIVA",
+      "parecer_tecnico": "Motor atende a maioria dos requisitos, mas tem limitações no grau de proteção e prazo de entrega.",
+      "analise_pontuacao": {
+        "potencia": {
+          "pontos_obtidos": 20,
+          "pontos_maximos": 20,
+          "valor_especificado": 15.0,
+          "valor_motor": 15.0,
+          "atende": true,
+          "observacao": "Potência exata conforme especificação"
+        },
+        "tensao": {
+          "pontos_obtidos": 15,
+          "pontos_maximos": 15,
+          "valor_especificado": 380,
+          "valor_motor": [
+            380
+          ],
+          "atende": true,
+          "observacao": "Tensão 380V disponível"
+        },
+        "eficiencia": {
+          "pontos_obtidos": 10,
+          "pontos_maximos": 15,
+          "valor_especificado": "IE3",
+          "valor_motor": "IE2",
+          "atende": false,
+          "observacao": "Eficiência IE2, não atende ao desejado IE3"
+        },
+        "grau_protecao": {
+          "pontos_obtidos": 5,
+          "pontos_maximos": 10,
+          "valor_especificado": "IP55",
+          "valor_motor": "IP54",
+          "atende": false,
+          "observacao": "Grau de proteção IP54, não atende ao mínimo IP55"
+        },
+        "rotacao": {
+          "pontos_obtidos": 8,
+          "pontos_maximos": 10,
+          "valor_especificado": 1750,
+          "valor_motor": 1750,
+          "variacao_percentual": 0,
+          "atende": true,
+          "observacao": "Rotação nominal de 1750 rpm, atende ao especificado"
+        },
+        "preparado_inversor": {
+          "pontos_obtidos": 5,
+          "pontos_maximos": 10,
+          "valor_especificado": true,
+          "valor_motor": false,
+          "atende": false,
+          "observacao": "Não preparado para inversor, limitação para controle de velocidade"
+        },
+        "prazo_entrega": {
+          "pontos_obtidos": 8,
+          "pontos_maximos": 10,
+          "valor_especificado": 30,
+          "valor_motor": 7,
+          "atende": true,
+          "observacao": "Prazo de entrega de 7 dias, atende ao especificado"
+        },
+        "disponibilidade": {
+          "pontos_obtidos": 5,
+          "pontos_maximos": 5,
+          "valor_especificado": "estoque",
+          "valor_motor": "pronta entrega",
+          "atende": true,
+          "observacao": "Disponível para entrega imediata"
+        },
+        "garantia": {
+          "pontos_obtidos": 3,
+          "pontos_maximos": 5,
+          "valor_especificado": 18,
+          "valor_motor": 12,
+          "atende": false,
+          "observacao": "Garantia de 12 meses, não atende ao mínimo de 18 meses"
+        }
+      },
+      "vantagens": [
+        "Potência exata conforme especificação",
+        "Tensão 380V disponível",
+        "Rotação nominal de 1750 rpm, atende ao especificado",
+        "Disponível para entrega imediata"
+      ],
+      "desvantagens": [
+        "Eficiência IE2, não atende ao desejado IE3",
+        "Grau de proteção IP54, não atende ao mínimo IP55",
+        "Não preparado para inversor, limitação para controle de velocidade",
+        "Garantia de 12 meses, não atende ao mínimo de 18 meses"
+      ],
+      "riscos_tecnicos": [
+        "Risco de danos por umidade devido ao grau de proteção IP54",
+        "Limitação no controle de velocidade devido à falta de preparo para inversor"
+      ],
+      "recomendacao_engenharia": "ALTERNATIVA",
+      "justificativa_recomendacao": "O motor atende a maioria dos requisitos, mas tem limitações no grau de proteção e preparo para inversor. Recomenda-se avaliar a possibilidade de atualizar o grau de proteção e preparo para inversor para atender às necessidades específicas do projeto.",
+      "adequacao_aplicacao": {
+        "bomba_centrifuga": "alta",
+        "regime_continuo": "alta",
+        "ambiente_umido": "baixa"
+      },
+      "analise_custo_beneficio": {
+        "custo_aquisicao_brl": 7965.0,
+        "custo_energia_anual_estimado_brl": 12000.0,
+        "economia_vs_ie1_anual_brl": 2000.0,
+        "payback_vs_ie2_anos": 2.5,
+        "tco_5anos_brl": 65000.0
+      },
+      "dados_comerciais": {
+        "preco_base_brl": 5900.0,
+        "preco_com_impostos_brl": 7965.0,
+        "prazo_entrega_dias": 7,
+        "disponibilidade": "pronta_entrega",
+        "garantia_meses": 12,
+        "origem": "Nacional - São Paulo/SP"
+      }
+    },
+    {
+      "codigo_produto": "SEW-DRS100M4BE30",
+      "fabricante": "SEW-EURODRIVE",
+      "score_adequacao": 82,
+      "classificacao": "ALTERNATIVA",
+      "parecer_tecnico": "Motor elétrico SEW-DRS100M4BE30 atende aos requisitos críticos de potência, tensão e eficiência, mas apresenta desvios em prazo de entrega e disponibilidade.",
+      "analise_pontuacao": {
+        "potencia": {
+          "pontos_obtidos": 20,
+          "pontos_maximos": 20,
+          "valor_especificado": 15.0,
+          "valor_motor": 15.0,
+          "atende": true,
+          "observacao": "Potência exata conforme especificação"
+        },
+        "tensao": {
+          "pontos_obtidos": 15,
+          "pontos_maximos": 15,
+          "valor_especificado": 380,
+          "valor_motor": [
+            380,
+            440
+          ],
+          "atende": true,
+          "observacao": "Tensão 380V disponível em configuração delta"
+        },
+        "eficiencia": {
+          "pontos_obtidos": 10,
+          "pontos_maximos": 15,
+          "valor_especificado": "IE3",
+          "valor_motor": "IE2",
+          "atende": false,
+          "observacao": "Eficiência IE2, embora não atenda ao desejado IE3, é aceitável"
+        },
+        "grau_protecao": {
+          "pontos_obtidos": 5,
+          "pontos_maximos": 10,
+          "valor_especificado": "IP55",
+          "valor_motor": "IP54",
+          "atende": false,
+          "observacao": "Grau de proteção IP54 é inferior ao especificado IP55"
+        },
+        "rotacao": {
+          "pontos_obtidos": 8,
+          "pontos_maximos": 10,
+          "valor_especificado": 1750,
+          "valor_motor": 1760,
+          "variacao_percentual": 0.57,
+          "atende": true,
+          "observacao": "1760 rpm representa variação de 0.57%, dentro da tolerância de ±2%"
+        },
+        "preparado_inversor": {
+          "pontos_obtidos": 10,
+          "pontos_maximos": 10,
+          "valor_especificado": true,
+          "valor_motor": true,
+          "atende": true,
+          "observacao": "Isolamento reforçado IEC 60034-17 para operação com VFD"
+        },
+        "prazo_entrega": {
+          "pontos_obtidos": 8,
+          "pontos_maximos": 10,
+          "valor_especificado": 30,
+          "valor_motor": 30,
+          "atende": true,
+          "observacao": "Prazo de entrega atende à especificação"
+        },
+        "disponibilidade": {
+          "pontos_obtidos": 2,
+          "pontos_maximos": 5,
+          "valor_especificado": "estoque",
+          "valor_motor": "sob_encomenda",
+          "atende": false,
+          "observacao": "Produto sob encomenda, sem estoque local"
+        },
+        "garantia": {
+          "pontos_obtidos": 4,
+          "pontos_maximos": 5,
+          "valor_especificado": 18,
+          "valor_motor": 12,
+          "atende": false,
+          "observacao": "Garantia de 12 meses é inferior ao mínimo de 18 meses"
+        }
+      },
+      "vantagens": [
+        "Eficiência IE2 proporciona economia de energia",
+        "Preparado para operação com inversor de frequência",
+        "Prazo de entrega atende à especificação"
+      ],
+      "desvantagens": [
+        "Grau de proteção IP54 é inferior ao especificado IP55",
+        "Produto sob encomenda, sem estoque local",
+        "Garantia de 12 meses é inferior ao mínimo de 18 meses"
+      ],
+      "riscos_tecnicos": [
+        "Grau de proteção inferior pode aumentar riscos em ambientes úmidos",
+        "Dependência de importação para peças de reposição pode aumentar tempo de entrega"
+      ],
+      "recomendacao_engenharia": "ALTERNATIVA",
+      "justificativa_recomendacao": "O motor SEW-DRS100M4BE30 atende aos requisitos críticos de potência, tensão e eficiência, mas apresenta desvios em grau de proteção e garantia. A eficiência IE2, embora não atenda ao desejado IE3, é aceitável. O prazo de entrega atende à especificação, mas a disponibilidade é sob encomenda.",
+      "adequacao_aplicacao": {
+        "bomba_centrifuga": "alta",
+        "regime_continuo": "alta",
+        "ambiente_umido": "média"
+      },
+      "analise_custo_beneficio": {
+        "custo_aquisicao_brl": 9720.0,
+        "custo_energia_anual_estimado_brl": 8500.0,
+        "economia_vs_ie1_anual_brl": 1500.0,
+        "payback_vs_ie2_anos": 2.5,
+        "tco_5anos_brl": 53000.0
+      },
+      "dados_comerciais": {
+        "preco_base_brl": 7200.0,
+        "preco_com_impostos_brl": 9720.0,
+        "prazo_entrega_dias": 30,
+        "disponibilidade": "sob_encomenda",
+        "garantia_meses": 12,
+        "origem": "Importado - Alemanha"
+      }
+    }
+  ],
+  "ranking": [
+    {
+      "posicao": 1,
+      "codigo_produto": "WEG-00158ET3EM160M-W22",
+      "fabricante": "WEG",
+      "score": 87.5,
+      "classificacao": "RECOMENDADO",
+      "preco_brl": 10500.0,
+      "prazo_dias": 60
+    },
+    {
+      "posicao": 2,
+      "codigo_produto": "EBERLE-EBR160M-4",
+      "fabricante": "EBERLE",
+      "score": 87.5,
+      "classificacao": "RECOMENDADO",
+      "preco_brl": 6800.0,
+      "prazo_dias": 20
+    },
+    {
+      "posicao": 3,
+      "codigo_produto": "SIEMENS-1LE1003-1DB23-4AA4",
+      "fabricante": "SIEMENS",
+      "score": 87.5,
+      "classificacao": "ALTERNATIVA",
+      "preco_brl": 9800.0,
+      "prazo_dias": 45
+    },
+    {
+      "posicao": 4,
+      "codigo_produto": "VOGES-VM160-4P",
+      "fabricante": "VOGES",
+      "score": 82,
+      "classificacao": "ALTERNATIVA",
+      "preco_brl": 5900.0,
+      "prazo_dias": 7
+    },
+    {
+      "posicao": 5,
+      "codigo_produto": "SEW-DRS100M4BE30",
+      "fabricante": "SEW-EURODRIVE",
+      "score": 82,
+      "classificacao": "ALTERNATIVA",
+      "preco_brl": 7200.0,
+      "prazo_dias": 30
+    }
+  ]
+}
